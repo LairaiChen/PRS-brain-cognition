@@ -204,7 +204,74 @@ if(!file.exists('results/201-IDP-PRS-after-75/result_report_all.rds')) {
   result.report <- read_rds('results/201-IDP-PRS-after-75/result_report_all.rds')
 }
 
+# Inspect sample sizes by age window length ----------------
+df.age.uc <- read_csv('data/UKB/demo_and_PRS.csv') %>% 
+  filter(ethnicity == 'UKB-UC') %>% 
+  select(eid, age, PRS = `PRS-UKB`) %>% 
+  mutate(tertile = ntile(PRS, 3)) %>%
+  mutate(tertile = if_else(tertile == 1, 'Low', if_else(tertile == 2, 'Medium', 'High'))) %>% 
+  mutate(tertile = factor(tertile, levels = c('Low', 'Medium', 'High')))
 
+sample_sizes_uc <- map_dfr(
+  sort(c(seq(0.5, 5, by=0.1))),
+  function(WIDTH) {
+    age.window <- tibble(
+      age.min = seq(45, 85, by = 0.1),
+      age.max = age.min + WIDTH
+    ) %>% filter(age.max < 85)
+    map2_dfr(age.window$age.min, age.window$age.max, function(age.min, age.max){
+      DF <- df.age.uc %>% filter(between_interval(age, age.min, age.max))
+      tibble(
+        width = WIDTH,
+        age = median(DF$age),
+        age.min = age.min,
+        age.max = age.max,
+        `Total group` = nrow(DF),
+        `Low-risk group` = nrow(DF %>% filter(tertile == 'Low')),
+        `Med-risk group` = nrow(DF %>% filter(tertile == 'Medium')),
+        `High-risk group` = nrow(DF %>% filter(tertile == 'High'))
+      )
+    })
+  }
+)
+
+age_span <- sample_sizes_uc %>% 
+  filter(`Total group` >= N_G_POWER) %>% 
+  group_by(width) %>% 
+  summarise(
+    `Min(age)` = min(age),
+    `Max(age)` = max(age)
+  ) %>% 
+  ungroup()
+
+sample_sizes_uc <- na.omit(sample_sizes_uc)
+write_csv(sample_sizes_uc, 'data/sample_size_by_window.csv')
+
+# Inspect overlapping between adjacent windows
+demo <- read_csv('data/demo.csv') %>% filter(ethnicity == 'UKB-UC') %>% select(eid, age)
+sample_sizes_uc <- read_csv('data/sample_size_by_window.csv') %>% 
+  mutate(
+    window_id = row_number(),
+    participants = map2(age.min, age.max, ~ demo %>%
+                          filter(age >= .x, age < .y) %>%
+                          pull(eid))
+  ) %>%
+  mutate(
+    `Total group` = map_int(participants, length),
+    overlap_n = map2_int(participants, lag(participants),
+                         ~ if (is.null(.y)) NA_integer_
+                         else length(intersect(.x, .y))),
+    overlap_ratio = map2_dbl(overlap_n, `Total group`,
+                             ~ if (is.na(.x)) NA_real_ else .x / .y)
+  ) 
+
+saveRDS(sample_sizes_uc, 'data/sampe_sizes_uc.rds')
+
+# Inspect when size == 3
+temp <- sample_sizes_uc %>% filter(width == 3)
+mean(temp$overlap_ratio)
+
+                             
 # ggsesg-visualisation based on normalized FAST-------
 temp <- read_rds('results/201-IDP-PRS-after-75/result_report_all.rds') %>% filter(measure == 'volume_fast_normalised') %>% filter(lm_p<0.05) %>% filter(PRS == 'PRS-UKB')
 temp <- result.report %>% filter(measure == 'volume_first_normalised') %>% filter(lm_p<0.05) %>% filter(PRS == 'PRS-UKB')
