@@ -1,0 +1,123 @@
+hemi,region,side,label,description_FAST
+left,Angular Gyrus,lateral,lh_Angular.Gyrus,Volume of grey matter in Angular Gyrus (left)
+right,Angular Gyrus,lateral,rh_Angular.Gyrus,Volume of grey matter in Angular Gyrus (right)
+left,Central Opercular Cortex,lateral,lh_Central.Opercular.Cortex,Volume of grey matter in Central Opercular Cortex (left)
+right,Central Opercular Cortex,lateral,rh_Central.Opercular.Cortex,Volume of grey matter in Central Opercular Cortex (right)
+left,Cingulate Gyrus ant.,medial,lh_Cingulate.Gyrus..anterior.division,"Volume of grey matter in Cingulate Gyrus, anterior division (left)"
+right,Cingulate Gyrus ant.,medial,rh_Cingulate.Gyrus..anterior.division,"Volume of grey matter in Cingulate Gyrus, anterior division (right)"
+left,Cingulate Gyrus post.,medial,lh_Cingulate.Gyrus..posterior.division,"Volume of grey matter in Cingulate Gyrus, posterior division (left)"
+right,Cingulate Gyrus post.,medial,rh_Cingulate.Gyrus..posterior.division,"Volume of grey matter in Cingulate Gyrus, posterior division (right)"
+left,Cuneal Cortex,medial,lh_Cuneal.Cortex,Volume of grey matter in Cuneal Cortex (left)
+right,Cuneal Cortex,medial,rh_Cuneal.Cortex,Volume of grey matter in Cuneal Cortex (right)
+left,Frontal Medial Cortex,medial,lh_Frontal.Medial.Cortex,Volume of grey matter in Frontal Medial Cortex (left)
+right,Frontal Medial Cortex,medial,rh_Frontal.Medial.Cortex,Volume of grey matter in Frontal Medial Cortex (right)
+left,Frontal Operculum Cortex,lateral,lh_Frontal.Operculum.Cortex,Volume of grey matter in Frontal Operculum Cortex (left)
+right,Frontal Operculum Cortex,medial,rh_Frontal.Operculum.Cortex,Volume of grey matter in Frontal Operculum Cortex (right)
+right,Frontal Operculum Cortex,lateral,rh_Frontal.Operculum.Cortex,Volume of grey matter in Frontal Operculum Cortex (right)
+left,Frontal Orbital Cortex,lateral,lh_Frontal.Orbital.Cortex,Volume of grey matter in Frontal Orbital Cortex (left)
+left,Frontal Orbital Cortex,medial,lh_Frontal.Orbital.Cortex,Volume of grey matter in Frontal Orbital Cortex (left)
+right,Frontal Orbital Cortex,medial,rh_Frontal.Orbital.Cortex,Volume of grey matter in Frontal Orbital Cortex (right)
+right,Frontal Orbital Cortex,lateral,rh_Frontal.Orbital.Cortex,Volume of grey matter in Frontal Orbital Cortex (right)
+left,Frontal Pole,lateral,lh_Frontal.Pole,Volume of grey matter in Frontal Pole (left)
+left,Frontal Pole,medial,lh_Frontal.Pole,Volume of grey matter in Frontal Pole (left)
+right,Frontal Pole,medial,rh_Frontal.Pole,Volume of grey matter in Frontal Pole (right)
+right,Frontal Pole,lateral,rh_Frontal.Pole,Volume of grey matter in Frontal Pole (right)
+left,Heschl s Gyrus includes H1 and H2,lateral,lh_Heschl.s.Gyrus..includes.H1.and.H2.,Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (left)
+right,Heschl s Gyrus includes H1 and H2,lateral,rh_Heschl.s.Gyrus..includes.H1.and.H2.,Volume of grey matter in Heschl's Gyrus (includes H1 and H2) (right)
+left,Inf. Frontal Gyrus pars opercularis,lateral,lh_Inferior.Frontal.Gyrus..pars.opercularis,"Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (left)"
+right,Inf. Frontal Gyrus pars opercularis,lateral,rh_Inferior.Frontal.Gyrus..pars.opercularis,"Volume of grey matter in Inferior Frontal Gyrus, pars opercularis (right)"
+left,Inf. Frontal Gyrus pars triangularis,lateral,lh_Inferior.Frontal.Gyrus..pars.triangularis,"Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (left)"
+right,Inf. Frontal Gyrus pars triangularis,lateral,rh_Inferior.Frontal.Gyrus..pars.triangularis,"Volume of grey matter in Inferior Frontal Gyrus, pars triangularis (right)"
+left,Inf. Temporal Gyrus ant.,lateral,lh_Inferior.Temporal.Gyrus..anterior.division,"Volume of grey matter in Inferior Temporal Gyrus, anterior division (left)"
+right,Inf. Temporal Gyrus ant.,lateral,rh_Inferior.Temporal.Gyrus..anterior.division,"Volume of grey matter in Inferior Temporal Gyrus, anterior division (right)"
+left,Inf. Temporal Gyrus post.,lateral,lh_Inferior.Temporal.Gyrus..posterior.division,"Volume of grey matter in Inferior Temporal Gyrus, posterior division (left)"
+left,Inf. Temporal Gyrus post.,medial,lh_Inferior.Temporal.Gyrus..posterior.division,"Volume of grey matter in Inferior Temporal Gyrus, posterior division (left)"
+right,Inf. Temporal Gyrus post.,lateral,rh_Inferior.Temporal.Gyrus..posterior.division,"Volume of grey matter in Inferior Temporal Gyrus, posterior division (right)"
+left,Inf. Temporal Gyrus temporooccipital,lateral,lh_Inferior.Temporal.Gyrus..temporooccipital.part,"Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (left)"
+right,Inf. Temporal Gyrus temporooccipital,lateral,rh_Inferior.Temporal.Gyrus..temporooccipital.part,"Volume of grey matter in Inferior Temporal Gyrus, temporooccipital part (right)"
+left,Insular Cortex,lateral,lh_Insular.Cortex,Volume of grey matter in Insular Cortex (left)
+right,Insular Cortex,lateral,rh_Insular.Cortex,Volume of grey matter in Insular Cortex (right)
+left,Intracalcarine Cortex,medial,lh_Intracalcarine.Cortex,Volume of grey matter in Intracalcarine Cortex (left)
+right,Intracalcarine Cortex,medial,rh_Intracalcarine.Cortex,Volume of grey matter in Intracalcarine Cortex (right)
+left,Juxtapositional Lobule Cortex,medial,lh_Juxtapositional.Lobule.Cortex..formerly.Supplementary.Motor.Cortex.,Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (left)
+right,Juxtapositional Lobule Cortex,medial,rh_Juxtapositional.Lobule.Cortex..formerly.Supplementary.Motor.Cortex.,Volume of grey matter in Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex) (right)
+left,Lat. Occipital Cortex inf.,lateral,lh_Lateral.Occipital.Cortex..inferior.division,"Volume of grey matter in Lateral Occipital Cortex, inferior division (left)"
+right,Lat. Occipital Cortex inf.,lateral,rh_Lateral.Occipital.Cortex..inferior.division,"Volume of grey matter in Lateral Occipital Cortex, inferior division (right)"
+left,Lat. Occipital Cortex superior,lateral,lh_Lateral.Occipital.Cortex..superior.division,"Volume of grey matter in Lateral Occipital Cortex, superior division (left)"
+left,Lat. Occipital Cortex superior,medial,lh_Lateral.Occipital.Cortex..superior.division,"Volume of grey matter in Lateral Occipital Cortex, superior division (left)"
+right,Lat. Occipital Cortex superior,medial,rh_Lateral.Occipital.Cortex..superior.division,"Volume of grey matter in Lateral Occipital Cortex, superior division (right)"
+right,Lat. Occipital Cortex superior,lateral,rh_Lateral.Occipital.Cortex..superior.division,"Volume of grey matter in Lateral Occipital Cortex, superior division (right)"
+left,Lingual Gyrus,medial,lh_Lingual.Gyrus,Volume of grey matter in Lingual Gyrus (left)
+right,Lingual Gyrus,medial,rh_Lingual.Gyrus,Volume of grey matter in Lingual Gyrus (right)
+left,Mid. Frontal Gyrus,lateral,lh_Middle.Frontal.Gyrus,Volume of grey matter in Middle Frontal Gyrus (left)
+right,Mid. Frontal Gyrus,lateral,rh_Middle.Frontal.Gyrus,Volume of grey matter in Middle Frontal Gyrus (right)
+left,Mid. Temporal Gyrus ant.,lateral,lh_Middle.Temporal.Gyrus..anterior.division,"Volume of grey matter in Middle Temporal Gyrus, anterior division (left)"
+right,Mid. Temporal Gyrus ant.,lateral,rh_Middle.Temporal.Gyrus..anterior.division,"Volume of grey matter in Middle Temporal Gyrus, anterior division (right)"
+left,Mid. Temporal Gyrus post.,lateral,lh_Middle.Temporal.Gyrus..posterior.division,"Volume of grey matter in Middle Temporal Gyrus, posterior division (left)"
+right,Mid. Temporal Gyrus post.,lateral,rh_Middle.Temporal.Gyrus..posterior.division,"Volume of grey matter in Middle Temporal Gyrus, posterior division (right)"
+left,Mid. Temporal Gyrus temporooccipital,lateral,lh_Middle.Temporal.Gyrus..temporooccipital.part,"Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (left)"
+right,Mid. Temporal Gyrus temporooccipital,lateral,rh_Middle.Temporal.Gyrus..temporooccipital.part,"Volume of grey matter in Middle Temporal Gyrus, temporooccipital part (right)"
+left,Occipital Fusiform Gyrus,lateral,lh_Occipital.Fusiform.Gyrus,Volume of grey matter in Occipital Fusiform Gyrus (left)
+left,Occipital Fusiform Gyrus,medial,lh_Occipital.Fusiform.Gyrus,Volume of grey matter in Occipital Fusiform Gyrus (left)
+right,Occipital Fusiform Gyrus,lateral,rh_Occipital.Fusiform.Gyrus,Volume of grey matter in Occipital Fusiform Gyrus (right)
+left,Occipital Pole,lateral,lh_Occipital.Pole,Volume of grey matter in Occipital Pole (left)
+left,Occipital Pole,medial,lh_Occipital.Pole,Volume of grey matter in Occipital Pole (left)
+right,Occipital Pole,medial,rh_Occipital.Pole,Volume of grey matter in Occipital Pole (right)
+right,Occipital Pole,lateral,rh_Occipital.Pole,Volume of grey matter in Occipital Pole (right)
+left,Paracingulate Gyrus,medial,lh_Paracingulate.Gyrus,Volume of grey matter in Paracingulate Gyrus (left)
+right,Paracingulate Gyrus,medial,rh_Paracingulate.Gyrus,Volume of grey matter in Paracingulate Gyrus (right)
+left,Parahippocampal Gyrus ant.,medial,lh_Parahippocampal.Gyrus..anterior.division,"Volume of grey matter in Parahippocampal Gyrus, anterior division (left)"
+right,Parahippocampal Gyrus ant.,medial,rh_Parahippocampal.Gyrus..anterior.division,"Volume of grey matter in Parahippocampal Gyrus, anterior division (right)"
+left,Parahippocampal Gyrus post.,medial,lh_Parahippocampal.Gyrus..posterior.division,"Volume of grey matter in Parahippocampal Gyrus, posterior division (left)"
+right,Parahippocampal Gyrus post.,medial,rh_Parahippocampal.Gyrus..posterior.division,"Volume of grey matter in Parahippocampal Gyrus, posterior division (right)"
+left,Parietal Operculum Cortex,lateral,lh_Parietal.Operculum.Cortex,Volume of grey matter in Parietal Operculum Cortex (left)
+right,Parietal Operculum Cortex,lateral,rh_Parietal.Operculum.Cortex,Volume of grey matter in Parietal Operculum Cortex (right)
+left,Planum Polare,lateral,lh_Planum.Polare,Volume of grey matter in Planum Polare (left)
+right,Planum Polare,lateral,rh_Planum.Polare,Volume of grey matter in Planum Polare (right)
+left,Planum Temporale,lateral,lh_Planum.Temporale,Volume of grey matter in Planum Temporale (left)
+right,Planum Temporale,lateral,rh_Planum.Temporale,Volume of grey matter in Planum Temporale (right)
+left,Postcentral Gyrus,lateral,lh_Postcentral.Gyrus,Volume of grey matter in Postcentral Gyrus (left)
+left,Postcentral Gyrus,medial,lh_Postcentral.Gyrus,Volume of grey matter in Postcentral Gyrus (left)
+right,Postcentral Gyrus,medial,rh_Postcentral.Gyrus,Volume of grey matter in Postcentral Gyrus (right)
+right,Postcentral Gyrus,lateral,rh_Postcentral.Gyrus,Volume of grey matter in Postcentral Gyrus (right)
+left,Precentral Gyrus,lateral,lh_Precentral.Gyrus,Volume of grey matter in Precentral Gyrus (left)
+left,Precentral Gyrus,medial,lh_Precentral.Gyrus,Volume of grey matter in Precentral Gyrus (left)
+right,Precentral Gyrus,medial,rh_Precentral.Gyrus,Volume of grey matter in Precentral Gyrus (right)
+right,Precentral Gyrus,lateral,rh_Precentral.Gyrus,Volume of grey matter in Precentral Gyrus (right)
+left,Precuneous Cortex,medial,lh_Precuneous.Cortex,Volume of grey matter in Precuneous Cortex (left)
+right,Precuneous Cortex,medial,rh_Precuneous.Cortex,Volume of grey matter in Precuneous Cortex (right)
+left,Subcallosal Cortex,medial,lh_Subcallosal.Cortex,Volume of grey matter in Subcallosal Cortex (left)
+right,Subcallosal Cortex,medial,rh_Subcallosal.Cortex,Volume of grey matter in Subcallosal Cortex (right)
+left,Sup. Frontal Gyrus,lateral,lh_Superior.Frontal.Gyrus,Volume of grey matter in Superior Frontal Gyrus (left)
+left,Sup. Frontal Gyrus,medial,lh_Superior.Frontal.Gyrus,Volume of grey matter in Superior Frontal Gyrus (left)
+right,Sup. Frontal Gyrus,medial,rh_Superior.Frontal.Gyrus,Volume of grey matter in Superior Frontal Gyrus (right)
+right,Sup. Frontal Gyrus,lateral,rh_Superior.Frontal.Gyrus,Volume of grey matter in Superior Frontal Gyrus (right)
+left,Sup. Parietal Lobule,lateral,lh_Superior.Parietal.Lobule,Volume of grey matter in Superior Parietal Lobule (left)
+left,Sup. Parietal Lobule,medial,lh_Superior.Parietal.Lobule,Volume of grey matter in Superior Parietal Lobule (left)
+right,Sup. Parietal Lobule,medial,rh_Superior.Parietal.Lobule,Volume of grey matter in Superior Parietal Lobule (right)
+right,Sup. Parietal Lobule,lateral,rh_Superior.Parietal.Lobule,Volume of grey matter in Superior Parietal Lobule (right)
+left,Sup. Temporal Gyrus ant.,lateral,lh_Superior.Temporal.Gyrus..anterior.division,"Volume of grey matter in Superior Temporal Gyrus, anterior division (left)"
+right,Sup. Temporal Gyrus ant.,lateral,rh_Superior.Temporal.Gyrus..anterior.division,"Volume of grey matter in Superior Temporal Gyrus, anterior division (right)"
+left,Sup. Temporal Gyrus post.,lateral,lh_Superior.Temporal.Gyrus..posterior.division,"Volume of grey matter in Superior Temporal Gyrus, posterior division (left)"
+right,Sup. Temporal Gyrus post.,lateral,rh_Superior.Temporal.Gyrus..posterior.division,"Volume of grey matter in Superior Temporal Gyrus, posterior division (right)"
+left,Supracalcarine Cortex,medial,lh_Supracalcarine.Cortex,Volume of grey matter in Supracalcarine Cortex (left)
+right,Supracalcarine Cortex,medial,rh_Supracalcarine.Cortex,Volume of grey matter in Supracalcarine Cortex (right)
+left,Supramarginal Gyrus ant.,lateral,lh_Supramarginal.Gyrus..anterior.division,"Volume of grey matter in Supramarginal Gyrus, anterior division (left)"
+right,Supramarginal Gyrus ant.,lateral,rh_Supramarginal.Gyrus..anterior.division,"Volume of grey matter in Supramarginal Gyrus, anterior division (right)"
+left,Supramarginal Gyrus post.,lateral,lh_Supramarginal.Gyrus..posterior.division,"Volume of grey matter in Supramarginal Gyrus, posterior division (left)"
+right,Supramarginal Gyrus post.,lateral,rh_Supramarginal.Gyrus..posterior.division,"Volume of grey matter in Supramarginal Gyrus, posterior division (right)"
+left,Temporal Fusiform Cortex ant.,medial,lh_Temporal.Fusiform.Cortex..anterior.division,"Volume of grey matter in Temporal Fusiform Cortex, anterior division (left)"
+right,Temporal Fusiform Cortex ant.,medial,rh_Temporal.Fusiform.Cortex..anterior.division,"Volume of grey matter in Temporal Fusiform Cortex, anterior division (right)"
+left,Temporal Fusiform Cortex post.,medial,lh_Temporal.Fusiform.Cortex..posterior.division,"Volume of grey matter in Temporal Fusiform Cortex, posterior division (left)"
+right,Temporal Fusiform Cortex post.,medial,rh_Temporal.Fusiform.Cortex..posterior.division,"Volume of grey matter in Temporal Fusiform Cortex, posterior division (right)"
+right,Temporal Fusiform Cortex post.,lateral,rh_Temporal.Fusiform.Cortex..posterior.division,"Volume of grey matter in Temporal Fusiform Cortex, posterior division (right)"
+left,Temporal Occipital Fusiform Cortex,lateral,lh_Temporal.Occipital.Fusiform.Cortex,Volume of grey matter in Temporal Occipital Fusiform Cortex (left)
+left,Temporal Occipital Fusiform Cortex,medial,lh_Temporal.Occipital.Fusiform.Cortex,Volume of grey matter in Temporal Occipital Fusiform Cortex (left)
+right,Temporal Occipital Fusiform Cortex,medial,rh_Temporal.Occipital.Fusiform.Cortex,Volume of grey matter in Temporal Occipital Fusiform Cortex (right)
+right,Temporal Occipital Fusiform Cortex,lateral,rh_Temporal.Occipital.Fusiform.Cortex,Volume of grey matter in Temporal Occipital Fusiform Cortex (right)
+left,Temporal Pole,lateral,lh_Temporal.Pole,Volume of grey matter in Temporal Pole (left)
+left,Temporal Pole,medial,lh_Temporal.Pole,Volume of grey matter in Temporal Pole (left)
+right,Temporal Pole,medial,rh_Temporal.Pole,Volume of grey matter in Temporal Pole (right)
+right,Temporal Pole,lateral,rh_Temporal.Pole,Volume of grey matter in Temporal Pole (right)
+left,NA,medial,lh_medialwall,
+right,NA,medial,rh_medialwall,
